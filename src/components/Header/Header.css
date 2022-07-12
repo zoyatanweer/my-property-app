@@ -1,0 +1,74 @@
+.app-title {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* action buttons and link */
+.action-btn {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  margin-right: 1rem;
+}
+
+.action-btn:hover {
+  background-color: var(--action-btn-hover);
+  color: var(--color-white);
+}
+
+.active-link {
+  background-color: var(--active-link-background-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+  padding: 5px 12px;
+}
+
+.btn-outlined {
+  border: 1.5px solid var(--btn-border);
+  color: var(--primary-color);
+  margin-right: 1rem;
+}
+
+.btn-outlined:hover {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+}
+
+.header-title-section {
+  display: flex;
+  align-items: center;
+}
+
+/* navigation */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid var(--division-color);
+  margin-bottom: 2rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0rem 2rem;
+}

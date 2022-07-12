@@ -1,0 +1,143 @@
+/* main page content */
+.main-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* heading section */
+.heading-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.searchbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  font-weight: 600;
+  border: 5px;
+  padding: 7px;
+}
+
+.searchbar-dropdown-icon {
+  background-color: var(--color-white);
+  height: 2.3rem;
+  margin-left: 0;
+}
+
+/* card */
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.card-container {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  height: 20rem;
+  width: 20rem;
+  margin: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-container {
+  height: 10rem;
+  width: 20rem;
+  object-fit: cover;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 10rem;
+  width: 20rem;
+}
+
+.card-badge {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  width: 25%;
+
+  position: absolute;
+  top: 46%;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.card-name,
+.card-price {
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.card-price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.division {
+  background-color: var(--division-color);
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-address {
+  margin-bottom: 5px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.card-details-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-icons {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.favourite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--filter-title);
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.text-blue {
+  color: var(--primary-color);
+}
